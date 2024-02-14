@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Compad</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <!--
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>-->
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <section id="Navigation">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top p-0 px-4 px-lg-5"
+            style="background-color: #050126;">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <h2 class="m-0 text-primary"><img class="img-fluid me-2" src="img/COMPAD LOGO ORIGINAL TRANSPARENT.png" alt="" style="width: 15%;">Compad</h2>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-4 py-lg-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="mart.html" class="nav-item nav-link active">Store</a>
+                    <!--
+                <a href="#Service" class="nav-item nav-link">Service</a>
+                <a href="#Roadmap" class="nav-item nav-link">Roadmap</a>
+                <a href="#Token" class="nav-item nav-link">Token</a>
+                <a href="#Footer" class="nav-item nav-link">Contact</a>
+                -->
+                    <!--
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="feature.html" class="dropdown-item">Feature</a>
+                        <a href="token.html" class="dropdown-item">Token Sale</a>
+                        <a href="faq.html" class="dropdown-item">FAQs</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>
+                -->
+                </div>
+                <div class="h-100 d-lg-inline-flex align-items-center d-none">
+                    <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square rounded-circle bg-light text-primary me-2"
+                        href="https://www.twitter.com/compadofficial/"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square rounded-circle bg-light text-primary me-0"
+                        href="https://www.instagram.com/compadofficial/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <section id="page-header" class="section-p1 bg-light" style="background-image: url(img/mart_header.jpg);">
+            <h2>#Our Store</h2>
+        </section>
+
+        <section id="products1" class="section-p1 bg-light">
+            <h2 style="color: #ce109e;">Compad Mall</h2>
+            <p>Summer Collection Modern Technologies</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/IMG-20240130-WA0022.jpg" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">Fashionable Sports Shoes for Children</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">45 COM</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+                    
+                </div>
+                <div class="pro">
+                    <img src="img/IMG-20240130-WA0023.jpg" alt=""
+                        class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">Ultralight Breathable Sports Shoes for Children</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">40 COM</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+                <div class="pro">
+                    <img src="img/IMG-20240130-WA0025.jpg" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">3D Wall Sticker</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">7 COM</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+                <div class="pro">
+                    <img src="img/IMG-20240131-WA0001.jpg" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">3-in-1 Towel Moq </h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">30 COM</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+                <div class="pro">
+                    <img src="img/IMG-20240131-WA0002.jpg" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">3-in-1 Towel Moq</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">30 COM</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+                <div class="pro">
+                    <img src="img/IMG-20240131-WA0003.jpg" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">3-in-1 Towel Moq</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">30 COM</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+                <div class="pro">
+                    <img src="img/IMG-20240131-WA0004.jpg" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">3-in-1 Towel Moq</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">30 COM</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+                <div class="pro">
+                    <img src="img/IMG-20240131-WA0005.jpg" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">Facial Mask Function</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">55 COM</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+
+                <div class="pro">
+                    <img src="img/IMG-20240131-WA0006.jpg" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Television</span>
+                        <h5 class="shop-item-title">ITEC 42" Fhd D-Led Tv</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">$120</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+                </div>
+
+                <div class="pro video">
+                    <video controls>
+                        <source src="img/f2801442db0e47b9948b136b0123f011.mp4" type="video/mp4">
+                    </video>
+                    <div class="des">
+                        <span>Health</span>
+                        <h5 class="shop-item-title">Kids Eye Catching Glass</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">70 COM</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+                </div>
+
+                <div class="pro">
+                    <img src="img/IMG-20240131-WA0007.jpg" alt=""
+                        class="shop-item-price">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">Fitbit Charge Fitness Tracker</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">60 COM</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+                <div class="pro">
+                    <img src="img/IMG-20240131-WA0008.jpg" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">Google Pixel Watch (GPS)</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">$369</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+                <div class="pro">
+                    <img src="img/IMG-20240131-WA0009.jpg" alt=""
+                        class="shop-item-image">
+                    <div class="des">
+                        <span>Television</span>
+                        <h5 class="shop-item-title">LG 86" 4K UHD HDR LED Smart TV</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">$1800</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+                <div class="pro">
+                    <img src="imG/IMG-20240131-WA0010.jpg" alt=""
+                        class="shop-item-image">
+                    <div class="des">
+                        <span>Air Conditioner</span>
+                        <h5 class="shop-item-title">Insignia Portable Air Conditioner</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">$280</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+                <div class="pro">
+                    <img src="img/IMG-20240131-WA0011.jpg" alt=""
+                        class="shop-item-image">
+                    <div class="des">
+                        <span>Air Conditioner</span>
+                        <h5 class="shop-item-title">Sanford 65w Portable Air Cooler</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">$273</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+
+                </div>
+                <div class="pro">
+                    <img src="img/IMG-20240131-WA0012.jpg" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Security</span>
+                        <h5 class="shop-item-title">BUGANI Bluetooth Headset</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">$80</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+
+                </div>
+
+
+                <div class="pro">
+                    <img src="img/IMG-20240131-WA0013.jpg" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">Epos H3 Gaming Headset</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">$129</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+                <div class="pro">
+                    <img src="img/IMG-20240131-WA0014.jpg" alt=""
+                        class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">Apple AirPods Pro (2nd Generation)</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">$40</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+                </div>
+                <div class="pro">
+                    <img src="img/IMG-20240131-WA0015.jpg" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">Digital Watch</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">$57</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+                <div class="pro">
+                    <img src="img/IMG-20240131-WA0017.jpg" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">Beats Wireless AirPod</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">$42</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+                <div class="pro video">
+                    <video controls>
+                        <source src="img/VID-20240130-WA0024.mp4" type="video/mp4">
+                    </video>
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">Galaxy Digital Watch</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">$89</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+
+                </div>
+                <div class="pro">
+                    <img src="images/E-products/IMG_2144.JPG" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">Highly Visual Camera</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">$229</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+
+                </div>
+                <div class="pro">
+                    <img src="images/E-products/IMG_2134.JPG" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">Standard Studio Microphone</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">$410</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+                <div class="pro">
+                    <img src="images/E-products/IMG_2136.JPG" alt="" class="shop-item-image">
+                    <div class="des">
+                        <span>Accessories</span>
+                        <h5 class="shop-item-title">BUGANI Bluetooth Headset</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="shop-item-price">$93</h4>
+                    </div>
+                    <button class="AddToCart" type="button" onclick="showPopup(this)">Add To Cart</button>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+<!--
+        <section id="pagination" class="section-p1">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
+        </section>-->
+
+
+    <!-- Footer Start -->
+    <section id="Footer">
+    <div class="container-fluid footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s" style="background-color: #050126;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <h1 class="text-primary mb-4"><img class="img-fluid me-2" src="img/COMPAD LOGO ORIGINAL TRANSPARENT.png" alt="" style="width: 20%;">Compad</h1>
+                    <span>Compad stands at the forefront of innovation, ensuring a secure, cost-effective, and inclusive platform.</span>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Get In Touch</h5>
+                    <a href="mailto:info@example.com"><i class="fa fa-envelope me-3"></i>info@example.com</a>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="#About">About Us</a>
+                    <a class="btn btn-link" href="#Footer">Contact Us</a>
+                    <a class="btn btn-link" href="#Service">Our Services</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Follow Us</h5>
+                    <div class="d-flex">
+                        <a class="btn btn-square rounded-circle me-1" href="https://x.com/Compadofficial"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href="https://www.instagram.com/compadofficial/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href="https://telegram.me/compadglobal"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#home">Compad Foundation</a> All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Developed By <a href="#">Cyber Premium</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+
+    <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+
+
+        <style>
+        .popup {
+            background-color: #ce109e;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }</style>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script>
+            function showPopup(button) {
+                const popup = document.createElement('div');
+                popup.classList.add('popup');
+                popup.textContent = 'Coming Soon';
+                
+                const rect = button.getBoundingClientRect();
+                popup.style.position = 'absolute';
+                popup.style.top = (window.scrollY + rect.bottom + 10) + 'px'; // Adjust 10px as needed
+                popup.style.left = (window.scrollX + rect.left) + 'px';
+                
+                document.body.appendChild(popup);
+                
+                // Remove the popup after 2 seconds
+                setTimeout(function() {
+                    popup.remove();
+                }, 2000);
+            }
+
+        </script>
+    </body>
+</html>
