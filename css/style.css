@@ -597,7 +597,7 @@ button.normal {
 
 .sliderLogo img {
     display: inline-block;
-    animation: slideLeft 20s linear infinite; 
+    animation: slideLeft 3s linear infinite; 
     margin-right: 40px;
     width: 10%;
 }
