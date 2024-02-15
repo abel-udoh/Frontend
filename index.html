@@ -149,9 +149,9 @@
 
                     <a href="https://play.google.com/store/apps/details?id=com.compad.app&hl=en&gl=US" class="btn btn-primary py-3 px-4 animated slideInDown"><i class="fab fa-google-play"></i> Google Play</a>
 
-                    <a href="#" class="btn btn-primary py-3 px-4 animated slideInDown"><i class="fab fa-apple"></i> Apple Store</a> 
-
+                    <button class="btn btn-primary py-3 px-4 animated slideInDown" onclick="showPopup(this)"><i class="fab fa-apple"></i> Apple Store</button>
                 </div>
+                
                 <div class="col-lg-6 animated fadeIn">
                     <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/55.png" alt="" style="width: 75%;">
                 </div> 
@@ -646,6 +646,7 @@
                     <a class="btn btn-link" href="#About">About Us</a>
                     <a class="btn btn-link" href="#Footer">Contact Us</a>
                     <a class="btn btn-link" href="#Service">Our Services</a>
+                    <a class="btn btn-link" href="Privacy-Policy.html">Privacy Policy</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="mb-4">Follow Us</h5>
@@ -746,6 +747,34 @@
             }
         }, 1000);
     </script>-->
+
+<style>
+    .popup {
+        background-color: #ce109e;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+}</style>
+<script>
+    function showPopup(button) {
+        const popup = document.createElement('div');
+        popup.classList.add('popup');
+        popup.textContent = 'Coming Soon';
+        
+        const rect = button.getBoundingClientRect();
+        popup.style.position = 'absolute';
+        popup.style.top = (window.scrollY + rect.bottom + 10) + 'px'; // Adjust 10px as needed
+        popup.style.left = (window.scrollX + rect.left) + 'px';
+        
+        document.body.appendChild(popup);
+        
+        // Remove the popup after 2 seconds
+        setTimeout(function() {
+            popup.remove();
+        }, 2000);
+    }
+
+</script>
 
 </body>
 
