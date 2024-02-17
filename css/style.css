@@ -791,6 +791,7 @@ button.white:hover {
     font-weight: 700;
   }
   
+
   
   #blog span {
     color: #ffffff;
@@ -810,7 +811,13 @@ button.white:hover {
     border: 1px solid #f0ebeb;
     border-radius: 10px;
   }
+  #blog .wrap-text {
+    word-wrap: break-word;
+  }
 
+  .wrap-text {
+    word-wrap: break-word;
+}
 
   @media screen and (max-width: 768px) {
     #blog {
