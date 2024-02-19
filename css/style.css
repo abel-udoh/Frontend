@@ -640,7 +640,7 @@ button.normal {
 }
 
 #announcement .banner-box h4 {
-  font-size: 14px;
+  font-size: 20px;
 }
 .carousel-indicators {
   bottom: 0;
@@ -671,6 +671,9 @@ button.normal {
   #announcement .banner-box h1 {
       font-size: 20px;
   }
+  #announcement .banner-box h4 {
+    font-size: 14px;
+}
 
   #announcement .banner-box a.btn {
     display: block;
