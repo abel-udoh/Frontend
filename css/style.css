@@ -616,49 +616,6 @@ button.normal {
 }
 
 /* Announcement*/
-
-/*
-#announcement {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#announcement .banner-box {
-    background-image: url(/img/announcement\ bg.jpg);
-    background-size: cover;
-    min-width: 300px;
-    width: 100%;
-    height: 60vh;
-    border-radius: 30px;
-    padding: 30px;
-    padding-top: 100px;
-}
-
-#announcement .banner-box h1 {
-    color: #050021;
-    font-weight: 700px;
-    font-size: 40px;
-    line-height: 1.2; 
-}
-
-#announcement .banner-box h4 {
-    font-size: 14px;
-}
-
-@media screen and (max-width: 768px) {
-
-    #announcement .banner-box {
-        height: auto;
-        padding-top: 50px;
-    }
-
-    #announcement .banner-box h1 {
-        font-size: 30px;
-    }
-}
-*/
 #announcement .carousel-inner {
   height: 50vh;
 }
@@ -678,7 +635,7 @@ button.normal {
 #announcement .banner-box h1 {
   color: #050021;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1.2; 
 }
 
@@ -712,7 +669,7 @@ button.normal {
   }
 
   #announcement .banner-box h1 {
-      font-size: 10px;
+      font-size: 20px;
   }
 
   #announcement .banner-box a.btn {
