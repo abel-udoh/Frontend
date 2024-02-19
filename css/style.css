@@ -617,6 +617,7 @@ button.normal {
 
 /* Announcement*/
 
+/*
 #announcement {
     display: flex;
     justify-content: center; 
@@ -657,6 +658,67 @@ button.normal {
         font-size: 30px;
     }
 }
+*/
+#announcement .carousel-inner {
+  height: 50vh;
+}
+
+#announcement .banner-box {
+  background-image: url(/img/announcement\ bg.jpg);
+  background-size: cover;
+  min-width: 300px;
+  width: 100%;
+  height: 300px;
+  padding: 60px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+}
+
+#announcement .banner-box h1 {
+  color: #050021;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2; 
+}
+
+#announcement .banner-box h4 {
+  font-size: 14px;
+}
+.carousel-indicators {
+  bottom: 0;
+  margin-bottom: 20px;
+}
+.carousel-indicators li {
+  background-color: rgba(255, 0, 140, 0.5); 
+  width: 20px; 
+  height: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.carousel-indicators .active {
+  background-color: rgba(236, 5, 167, 0.9);
+}
+
+
+@media screen and (max-width: 768px) {
+  #announcement .carousel-inner {
+      height: auto;
+      max-height: 60vh; /* Set a maximum height for smaller screens */
+  }
+
+  #announcement .banner-box {
+      padding-top: 40px;
+  }
+
+  #announcement .banner-box h1 {
+      font-size: 10px;
+  }
+
+  #announcement .banner-box a.btn {
+    display: block;
+}
+}
 
 
 button.white {
@@ -680,6 +742,7 @@ button.white:hover {
 .section-p1 {
     padding: 40px 80px;
 }
+
 
 
 
