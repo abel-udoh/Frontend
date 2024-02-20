@@ -67,7 +67,7 @@ h2.text-primary {
 }
 
 .section-p3 {
-  padding: 30px 60px;
+  padding: 10px 50px;
 }
 .section-m1 {
     padding: 40px 0px;
@@ -126,6 +126,7 @@ h2.text-primary {
     font-weight: normal;
 }
 
+
 button.normal {
     font-size: 14px;
     font-weight: 600;
@@ -140,11 +141,19 @@ button.normal {
   }
 
 
-/* Text- alignment*/
+
+
+  /* Text- alignment*/
 .justified-container { 
-    text-align: justify;
+    text-align: left;
 }
 
+@media (max-width: 767.98px)
+{
+  .btn {
+    margin-top: 10px;
+  }
+}
 /*** Navbar ***/
 .navbar.sticky-top {
     top: -100px;
@@ -617,22 +626,22 @@ button.normal {
 
 @media (max-width: 768px) {
     .sliderLogo img {
-        width: 40%; 
-        margin-right: 20px;
+        width: 20%; 
+        margin-right: 10px;
     }
 }
 
 /* Announcement*/
 #announcement .carousel-inner {
-  max-height: 60vh;
+  max-height: 70vh;
 }
 
 #announcement .banner-box {
   background-image: url(/img/announcement\ bg.jpg);
   background-size: cover;
-  min-width: 300px;
+  min-width: 200px;
   width: 100%;
-  min-height: 300px;
+  min-height: 250px;
   padding: 60px;
   padding-top: 80px;
   padding-bottom: 30px;
